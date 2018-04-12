@@ -1,7 +1,7 @@
 #!/bin/sh
 
-MEDIAWIKI_API_URL="${MEDIAWIKI_API_URL:-http://localhost/w/api.php}"
-MEDIAWIKI_URL="${MEDIAWIKI_URL:-http://localhost}"
+MEDIAWIKI_API_URL="${MEDIAWIKI_API_URL:-http://wiki.lopuch.eu/w/api.php}"
+MEDIAWIKI_URL="${MEDIAWIKI_URL:-http://wiki.lopuch.eu}"
 PARSOID_URL="${PARSOID_URL:-http://localhost:8000}"
 PARSOID_DOMAIN="${PARSOID_DOMAIN:-localhost}"
 NUM_WORKERS="${NUM_WORKERS:-4}"
